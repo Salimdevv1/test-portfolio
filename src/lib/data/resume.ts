@@ -25,7 +25,7 @@ export let DATA = {
 	name: 'Salimdev',
 	initials: 'SD',
 	url: 'https://github.com/Salimdevv1',
-	img: 'https://i.pinimg.com/736x/9e/dc/a6/9edca66eba199828bda2dbaf35642154.jpg',
+	img: 'https://media.discordapp.net/attachments/1074719448885383260/1305132019260592138/image.png?ex=6731ea69&is=673098e9&hm=bc224a8a87f5e273adad451019341cb63b91a349703eec399111cde7744b6216&=&format=webp&quality=lossless&width=2368&height=1296',
 	location: 'Mahdia, Tunisia',
 	locationLink: 'https://www.google.com/maps/place/tunisia',
 	description:
