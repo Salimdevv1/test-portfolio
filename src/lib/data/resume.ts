@@ -16,29 +16,23 @@ import TwitterSvg from '$lib/imgs/x.svg';
 import TwitterDarkSvg from '$lib/imgs/x-dark.svg';
 
 import AtomicImg from '$lib/imgs/atomic.png';
-import ShopifyImg from '$lib/imgs/shopify.svg';
-import NvidiaImg from '$lib/imgs/nvidia.png';
-import SplunkImg from '$lib/imgs/splunk.svg';
-import LimeImg from '$lib/imgs/lime.svg';
-import MitreMediaImg from '$lib/imgs/mitremedia.png';
 import BuildSpaceImg from '$lib/imgs/buildspace.jpg';
-import WaterLooImg from '$lib/imgs/waterloo.png';
-import LaurierImg from '$lib/imgs/laurier.png';
-import IBImg from '$lib/imgs/ib.png';
+import Gomycode from '$lib/imgs/gomycode.png'
+
 
 // Your resume data
 export let DATA = {
-	name: 'Sikandar Bhide',
-	initials: 'SB',
-	url: 'https://github.com/SikandarJODD',
+	name: 'Salimdev',
+	initials: 'SD',
+	url: 'https://github.com/Salimdevv1',
 	img: 'https://i.pinimg.com/736x/9e/dc/a6/9edca66eba199828bda2dbaf35642154.jpg',
-	location: 'Mumbai, India',
-	locationLink: 'https://www.google.com/maps/place/mumbai',
+	location: 'Mahdia, Tunisia',
+	locationLink: 'https://www.google.com/maps/place/tunisia',
 	description:
-		'Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.',
+		'Fullstack Web Developer. I love building things and helping people. Very active on Discord, Signal, Instagram.',
 	summary:
-		'At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Sil// icon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).',
-	avatarUrl: 'https://i.pinimg.com/564x/df/d2/76/dfd276448eed0f2b6094d1cb2c9d0269.jpg',
+		'I’ve been a freelancer for 2 years now and have a large client base for which I make amazing products and solutions. I am passionate about creating and designing delightful experiences through a mix of business to keep customers and users happy with their products and services online.',
+	avatarUrl: 'https://images-ext-1.discordapp.net/external/Rwy7oU6Me4r9eyHB7mfhJfs35fSOboYuuQjbtvWxJ_Q/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1072808343657254943/3edec207355311bd79a9bb51b1248e7b.png?format=webp&quality=lossless&width=1296&height=1296',
 	skills: [
 		'Svelte',
 		'Sveltekit',
@@ -46,11 +40,9 @@ export let DATA = {
 		'Node.js',
 		'Python',
 		'Go',
-		'Postgres',
 		'Docker',
 		'Kubernetes',
-		'Java',
-		'C++'
+		'Pocketbase'
 	],
 	navbar: [
 		{ href: '/', icon: HomeIcon, label: 'Home' },
@@ -58,12 +50,12 @@ export let DATA = {
 		{ href: '#', icon: CodeIcon, label: 'Projects' }
 	],
 	contact: {
-		email: 'hello@example.com',
+		email: 'contact@salimdev.online',
 		tel: '+123456789',
 		social: {
 			GitHub: {
 				name: 'GitHub',
-				url: 'https://github.com/SikandarJODD/portfolio-template',
+				url: 'https://github.com/Salimdevv1',
 				// // icon: Icons.github,
 				icon: GithubSvg,
 				navbar: true,
@@ -79,30 +71,15 @@ export let DATA = {
 			},
 			X: {
 				name: 'X',
-				url: 'https://twitter.com/Sikandar_Bhide',
+				url: 'https://x.com/salim_slam86158',
 				// // icon: Icons.x,
 				icon: TwitterSvg,
 				navbar: true,
 				dark_icon: TwitterDarkSvg
 			},
-			PeerList: {
-				name: 'PeerList',
-				url: 'https://peerlist.io/bhide',
-				// // icon: Icons.x,
-				icon: PeerListSvg,
-				navbar: true,
-				dark_icon: PeerListDarkSvg
-			},
-			// Youtube: {
-			// 	name: 'Youtube',
-			// 	url: 'https://github.com/SikandarJODD',
-			// 	// // icon: Icons.youtube,
-			// 	icon: Youtube,
-			// 	navbar: true
-			// },
 			email: {
 				name: 'Send Email',
-				url: '#',
+				url: 'contact@salimdev.online',
 				// // icon: Icons.email,
 				icon: GmailSvg,
 				navbar: false,
@@ -112,81 +89,21 @@ export let DATA = {
 	},
 	work: [
 		{
-			company: 'Atomic Finance',
-			href: 'https://atomic.finance',
+			company: "Afkar's Digial Agency",
+			href: 'https://afkars.digital/',
 			badges: [],
 			location: 'Remote',
-			title: 'Bitcoin Protocol Engineer',
+			title: 'Principal Web Developer',
 			logoUrl: AtomicImg,
-			start: 'May 2021',
+			start: 'May 2023',
 			end: 'Oct 2022',
 			description:
 				'Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.'
 		},
-		{
-			company: 'Shopify',
-			badges: [],
-			href: 'https://shopify.com',
-			location: 'Remote',
-			title: 'Software Engineer',
-			logoUrl: ShopifyImg,
-			start: 'January 2021',
-			end: 'April 2021',
-			description:
-				'Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.'
-		},
-		{
-			company: 'Nvidia',
-			href: 'https://nvidia.com/',
-			badges: [],
-			location: 'Santa Clara, CA',
-			title: 'Software Engineer',
-			logoUrl: NvidiaImg,
-			start: 'January 2020',
-			end: 'April 2020',
-			description:
-				'Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.'
-		},
-		{
-			company: 'Splunk',
-			href: 'https://splunk.com',
-			badges: [],
-			location: 'San Jose, CA',
-			title: 'Software Engineer',
-			logoUrl: SplunkImg,
-			start: 'January 2019',
-			end: 'April 2019',
-			description:
-				'Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.'
-		},
-		{
-			company: 'Lime',
-			href: 'https://li.me/',
-			badges: [],
-			location: 'San Francisco, CA',
-			title: 'Software Engineer',
-			logoUrl: LimeImg,
-			start: 'January 2018',
-			end: 'April 2018',
-			description:
-				'Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.'
-		},
-		{
-			company: 'Mitre Media',
-			href: 'https://mitremedia.com/',
-			badges: [],
-			location: 'Toronto, ON',
-			title: 'Software Engineer',
-			logoUrl: MitreMediaImg,
-			start: 'May 2017',
-			end: 'August 2017',
-			description:
-				'Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener'
-		}
 	],
 	education: [
 		{
-			school: 'Buildspace',
+			school: 'Ibn Sina Highschool',
 			href: 'https://buildspace.so',
 			degree: 's3, s4, sf1, s5',
 			logoUrl: BuildSpaceImg,
@@ -194,99 +111,98 @@ export let DATA = {
 			end: '2024'
 		},
 		{
-			school: 'University of Waterloo',
+			school: 'GoMyCode Certification',
 			href: 'https://uwaterloo.ca',
 			degree: "Bachelor's Degree of Computer Science (BCS)",
-			logoUrl: WaterLooImg,
-			start: '2016',
-			end: '2021'
+			logoUrl: Gomycode,
+			start: 'Jan 2022',
+			end: 'Aug 2024'
 		},
-		{
-			school: 'Wilfrid Laurier University',
-			href: 'https://wlu.ca',
-			degree: "Bachelor's Degree of Business Administration (BBA)",
-			logoUrl: LaurierImg,
-			start: '2016',
-			end: '2021'
-		},
-		{
-			school: 'International Baccalaureate',
-			href: 'https://ibo.org',
-			degree: 'IB Diploma',
-			logoUrl: IBImg,
-			start: '2012',
-			end: '2016'
-		}
 	],
 	projects: [
 		{
-			title: 'Chat Collect',
-			href: 'https://chatcollect.com',
-			dates: 'Jan 2024 - Feb 2024',
+			title: 'Electronic Games Arena',
+			href: 'https://egamesarena.pro/',
+			dates: 'Aug 2024 - Sep 2024',
 			active: true,
 			description:
-				'With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.',
+				"Welcome to EGA , your ultimate destination for competitive gaming! We're thrilled to have you join our vibrant community, where gamers from around the world come together to showcase their skills and passion.",
 			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Prisma',
+				'Svelte',
+				'Javascript',
+				'Pocketbase',
 				'TailwindCSS',
 				'Stripe',
-				'Shadcn UI',
-				'Magic UI'
 			],
 			links: [
 				{
 					type: 'Website',
-					href: 'https://chatcollect.com',
+					href: 'https://egamesarena.pro/',
 					// icon: <Icons.globe className="size-3" />,
 					icon: Globe
 				}
 			],
-			image: '',
-			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4'
+			image: 'https://media.discordapp.net/attachments/1074719448885383260/1305080482878328832/image.png?ex=6731ba6a&is=673068ea&hm=e66017022f8af23689a4026a2de2bc5fc13c222089510c6aa81f7111f78c6c88&=&format=webp&quality=lossless&width=2566&height=1264',
+			// video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4'
 		},
 		{
-			title: 'Magic UI',
+			title: 'Diversity Sports',
 			href: 'https://magicui.design',
-			dates: 'June 2023 - Present',
+			dates: 'June 2023 - Aug 2023',
 			active: true,
-			description: 'Designed, developed and sold animated UI components for developers.',
+			description: 'Diversity Sports is a dynamic and forward-thinking sports event company that takes pride in hosting a diverse range of sporting events',
 			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Prisma',
+				'Svelte',
+				'Javascript',
+				'Pocketbase',
 				'TailwindCSS',
 				'Stripe',
-				'Shadcn UI',
-				'Magic UI'
 			],
 			links: [
 				{
 					type: 'Website',
-					href: 'https://magicui.design',
+					href: 'https://www.diversitysports.ae/',
 					// icon: <Icons.globe className="size-3" />,
 					icon: Globe
 				},
-				{
-					type: 'Source',
-					href: 'https://github.com/magicuidesign/magicui',
-					icon: Github
-					// icon: <Icons.github className="size-3" />,
-				}
 			],
-			image: '',
-			video: 'https://cdn.magicui.design/bento-grid.mp4'
+			image: 'https://images-ext-1.discordapp.net/external/8fbzbWeGJM6BGrMT-supXuqclXP0d7tv4I6rphCeXgo/https/www.diversitysports.ae/assets/images/meta.png?format=webp&quality=lossless&width=1660&height=904',
+			// video: 'https://cdn.magicui.design/bento-grid.mp4'
 		},
 		{
-			title: 'llm.report',
-			href: 'https://llm.report',
-			dates: 'April 2023 - September 2023',
+			title: 'Wassimos TV',
+			href: 'https://www.wassimos.com/',
+			dates: 'April 2023 - May 2023',
 			active: true,
 			description:
-				'Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.',
+				'a multidimensional individual entrenched in the gaming world who works as a gamer, YouTube content creator, streamer, and skilled business manager. With over 1 million followers on my YouTube channel, I am a well-known figure in the Arab gaming world.',
+			technologies: [
+				'Svelte',
+				'Javascript',
+				'Pocketbase',
+				'TailwindCSS',
+				'Stripe',
+				'MySql',
+				'Cloudflare Workers'
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://www.wassimos.com/',
+					icon: Globe
+					// icon: <Icons.globe className="size-3" />,
+				},
+			],
+			image: 'https://images-ext-1.discordapp.net/external/qH050P2OlehEs7xxgFfKjkWDmvrTjfx97lYaZtNbhy0/https/www.wassimos.com/assets/images/home/wsm-main.png?format=webp&quality=lossless&width=2366&height=1296',
+			// video: 'https://cdn.llm.report/openai-demo.mp4'
+		},
+		{
+			title: 'Ahmed Kharrat',
+			href: 'https://www.ahmed-kharrat.com/',
+			dates: 'Aug 2024 - aug 2024',
+			active: true,
+			description:
+				'I am Ahmed, a QA Analyst and a game developer based in Canada. Working in the industry of video games has been a real childhood dream since I was young, to achieve this goal I have passed huge challenges like leaving my family and accepting to fight for this dream.',
 			technologies: [
 				'Next.js',
 				'Typescript',
@@ -301,48 +217,13 @@ export let DATA = {
 			links: [
 				{
 					type: 'Website',
-					href: 'https://llm.report',
-					icon: Globe
-					// icon: <Icons.globe className="size-3" />,
-				},
-				{
-					type: 'Source',
-					href: 'https://github.com/dillionverma/llm.report',
-					icon: Github
-					// icon: <Icons.github className="size-3" />,
-				}
-			],
-			image: '',
-			video: 'https://cdn.llm.report/openai-demo.mp4'
-		},
-		{
-			title: 'Automatic Chat',
-			href: 'https://automatic.chat',
-			dates: 'April 2023 - March 2024',
-			active: true,
-			description:
-				'Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.',
-			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Prisma',
-				'TailwindCSS',
-				'Shadcn UI',
-				'Magic UI',
-				'Stripe',
-				'Cloudflare Workers'
-			],
-			links: [
-				{
-					type: 'Website',
-					href: 'https://automatic.chat',
+					href: 'https://www.ahmed-kharrat.com/',
 					icon: Globe
 					// icon: <Icons.globe className="size-3" />,
 				}
 			],
-			image: '',
-			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4'
+			image: 'https://images-ext-1.discordapp.net/external/nzQsjBcIEor0pJejxC6X275d_-9J17e5tY6bMf0BbLU/https/www.ahmed-kharrat.com/assets/images/highlight.webp?format=webp&width=2296&height=1296',
+			// video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4'
 		}
 	],
 	hackathons: [

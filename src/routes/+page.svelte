@@ -41,11 +41,10 @@
 					<BlurFade
 						delay={BLUR_FADE_DELAY}
 						class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-						yOffset={8}>Hi, I'm Bhide 👋</BlurFade
+						yOffset={8}>Hi, I'm Salim 👋</BlurFade
 					>
 					<BlurFade class="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY}
-						>Software Engineer turned Entrepreneur. I love building things and helping people. Very
-						active on Twitter.</BlurFade
+						>Fullstack Web Developer. I love building things and helping people. Very active on Discord, Signal, Instagram.</BlurFade
 					>
 				</div>
 				<BlurFade delay={BLUR_FADE_DELAY}>
@@ -174,7 +173,7 @@
 					</div>
 				</div>
 			</BlurFade>
-			<BlurFade delay={BLUR_FADE_DELAY * 2}>
+			<!-- <BlurFade delay={BLUR_FADE_DELAY * 2}>
 				<ul class="mb-4 ml-4 divide-y divide-dashed border-l">
 					{#each DATA.hackathons as project}
 						<BlurFade delay={BLUR_FADE_DELAY}>
@@ -182,7 +181,7 @@
 						</BlurFade>
 					{/each}
 				</ul>
-			</BlurFade>
+			</BlurFade> -->
 		</div>
 	</section>
 	<section id="contact">
@@ -197,8 +196,8 @@
 						class="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
 					>
 						Want to chat? Just shoot me a dm
-						<a href={DATA.contact.social.X.url} class="text-blue-500 hover:underline">
-							with a direct question on twitter
+						<a href="mailto:{DATA.contact.social.email.url}" class="text-blue-500 hover:underline">
+							with a direct question on email
 						</a>
 						and I&apos;ll respond whenever I can. I will ignore all soliciting.
 					</p>
