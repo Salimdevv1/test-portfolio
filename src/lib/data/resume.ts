@@ -61,9 +61,9 @@ export let DATA = {
 				navbar: true,
 				dark_icon: GithubDarkSvg
 			},
-			LinkedIn: {
-				name: 'LinkedIn',
-				url: 'https://www.linkedin.com/in/sikandar-bhide/',
+			Instagram: {
+				name: 'Instagram',
+				url: 'https://www.instagram.com/slama.saliim/',
 				// // icon: Icons.linkedin,
 				icon: LinkedinSvg,
 				navbar: true,
@@ -78,11 +78,11 @@ export let DATA = {
 				dark_icon: TwitterDarkSvg
 			},
 			email: {
-				name: 'Send Email',
-				url: 'contact@salimdev.online',
+				name: 'Gmail',
+				url: 'mailto:contact@salimdev.online',
 				// // icon: Icons.email,
 				icon: GmailSvg,
-				navbar: false,
+				navbar: true,
 				dark_icon: GmailDarkSvg
 			}
 		}
@@ -223,6 +223,64 @@ export let DATA = {
 				}
 			],
 			image: 'https://images-ext-1.discordapp.net/external/nzQsjBcIEor0pJejxC6X275d_-9J17e5tY6bMf0BbLU/https/www.ahmed-kharrat.com/assets/images/highlight.webp?format=webp&width=2296&height=1296',
+			// video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4'
+		},
+		{
+			title: 'M3S Solutions',
+			href: 'https://m3s-solutions.com/',
+			dates: 'Aug 2024 - aug 2024',
+			active: true,
+			description:
+				"M3S SOLUTIONS, est un cabinet de consulting dédié à l'excellence financière et au développement international. Avec notre expertise approfondie dans les domaines de l'externalisation de la direction administrative et financière ainsi que de l'accompagnement pour le développement à l'export, nous sommes là pour vous aider à atteindre de nouveaux ...",
+			technologies: [
+				'Next.js',
+				'Typescript',
+				'PostgreSQL',
+				'Prisma',
+				'TailwindCSS',
+				'Shadcn UI',
+				'Magic UI',
+				'Stripe',
+				'Cloudflare Workers'
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://m3s-solutions.com/',
+					icon: Globe
+					// icon: <Icons.globe className="size-3" />,
+				}
+			],
+			image: 'https://media.discordapp.net/attachments/1074719448885383260/1305090050681208943/image.png?ex=6731c353&is=673071d3&hm=235732013411d380baba6fcf5b22ef179524a0ca23e72db6116d984ae6c5c8eb&=&format=webp&quality=lossless&width=2566&height=1264',
+			// video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4'
+		},
+		{
+			title: "Afkar's Digital",
+			href: 'https://afkars.digital/',
+			dates: 'Aug 2024 - aug 2024',
+			active: true,
+			description:
+				"AFKAR’S DIGITAL est une agence de marketing et digital novatrice, persuadée que chaque entreprise a une histoire unique et puissante à raconter. Notre mission est de faire vivre cette histoire et de la diffuser à travers le monde en concevant des expériences digitales inoubliables et des stratégies percutantes.",
+			technologies: [
+				'Next.js',
+				'Typescript',
+				'PostgreSQL',
+				'Prisma',
+				'TailwindCSS',
+				'Shadcn UI',
+				'Magic UI',
+				'Stripe',
+				'Cloudflare Workers'
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://afkars.digital/',
+					icon: Globe
+					// icon: <Icons.globe className="size-3" />,
+				}
+			],
+			image: 'https://media.discordapp.net/attachments/1074719448885383260/1305090331439796255/image.png?ex=6731c396&is=67307216&hm=3a0d4e56f134a7854cb674a49890584412410670ea4e42c9fb2dd948d54b2efe&=&format=webp&quality=lossless&width=2566&height=1264',
 			// video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4'
 		}
 	],
